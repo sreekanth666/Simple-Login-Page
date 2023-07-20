@@ -1,0 +1,93 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    background-color: #363740;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Mulish', sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid white; */
+}
+.form{
+    width: 380px;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+}
+@media (max-width:768px) {
+    .form{
+        width: fit-content;
+    }
+}
+.head{
+    text-align: center;
+    color: #A4A6B3;
+}
+.head h3{
+    margin: 0;
+}
+.sub-head{
+    text-align: center;
+}
+input{
+    width: 100%;
+    background-color: #FCFDFE;
+    border: 1px solid #F0F1F7;
+    padding: 1rem;
+    border-radius: 10px;
+}
+label{
+    font-size: small;
+    font-weight: bold;
+    color: #9FA2B4;
+    padding-bottom: 0.5rem;
+}
+::placeholder{
+    font-family: 'Mulish', sans-serif;
+    color: #9FA2B4;
+}
+.password-label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+.password-label a{
+    text-decoration: none;
+    color: #9FA2B4;
+}
+input[type=button]{
+    border: 0px;
+    background-color: #3751FF;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    box-shadow: 0px 3px 10px rgb(165, 165, 165);
+}
+.form-item{
+    margin-top: 1.5rem;
+}
+.sec-4{
+    font-size: small;
+    color: #9FA2B4;
+    text-align: center;
+    padding-top: 1rem;
+}
+.sec-4 a{
+    text-decoration: none;
+    color: #3751FF;
+}
