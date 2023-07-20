@@ -2,7 +2,7 @@
 This project is a simple login page built with HTML and CSS. It provides a clean and straightforward interface for users to log in to a dashboard kit.
 
 ## Preview
-![Login Page Preview](https://ibb.co/hR01Cg9)
+![Login Page Preview](https://i.ibb.co/SXS7J6y/simple-login-page-preview.png)
 
 ## Features
 - Log in with your email and password.
